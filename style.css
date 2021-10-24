@@ -1,0 +1,114 @@
+body{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+}
+.container{
+          width: 90%;
+          margin: auto;
+}
+.home-section{
+          background: url('images/top-banner.png') no-repeat;
+          height: 500px;
+       
+          overflow: hidden;
+          padding: 50px;
+}
+
+.half-left{
+          width: 40%;
+          float: left;
+          font-size: 20px;
+}
+.half-right{
+          width: 40%;
+          float: left;
+          margin-left: 15%;
+}
+.color-highlight{
+          color:blue;
+}
+
+ .link-button {
+        background: linear-gradient(45deg,orange,green);
+padding: 8px 34px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+transition: 1s;
+
+}
+
+.link-button:hover{
+          background: gray;
+          color: white;
+}
+/* resume-section-styling */
+.resume{
+          padding: 50px 0px;
+          font-size: 20px;
+          overflow: hidden;
+         
+}
+.resume-left{
+          float: left;
+          width: 35%;
+          margin-right: 10%;
+}
+
+.resume-mid{
+          float:left;
+          width: 35%;
+          margin-top: 70px;
+}
+.resume-right{
+          float:right;
+          width: 10%;
+          margin-top: 100px;
+          height: 20px;
+          
+}
+.resume-link{
+ text-decoration: none;
+ background: linear-gradient(45deg,orange,blue);
+ padding: 10px 20px;
+ color: white;
+ transition: 1s;
+}
+.resume-link:hover{
+          background: gray;
+          color: black;
+         
+}
+
+/* styling skill section */
+
+.skill{
+     
+overflow: hidden;
+padding: 20px;
+         
+}
+.skill .under{
+          text-align: center;
+          
+}
+.skill p{
+          color: red;
+}
+.card{
+          height: 200px;
+          width: 29%;
+        background: #f5f5f5;
+        box-shadow: 10px 10px 8px #888888;
+        float: left;
+        margin-right: 2%;
+        padding: 10px  15px;
+        border-left: 5px solid coral;
+      
+}
+
+.card:last-child{
+          margin-right: 0px;
+}
